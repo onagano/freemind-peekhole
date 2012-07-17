@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plugin label="plugins/ControlPoint">
+	<plugin_registration class_name="plugins.control.ControlPoint" isPluginBase="true">
+		<plugin_mode class_name="freemind.modes.mindmapmode"/>
+	</plugin_registration>
+</plugin>
