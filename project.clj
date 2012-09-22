@@ -5,8 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.3.0"]]
   :resource-paths ["resources"
-                   ;; "/Applications/FreeMind.app/Contents/Resources/Java/lib/freemind.jar"
-                   ;; "/Applications/FreeMind.app/Contents/Resources/Java"
-                   "/Users/onagano/work/fm/freemind-bin-max-0.9.0/lib/freemind.jar"]
+                   "/Applications/FreeMind.app/Contents/Resources/Java/lib/freemind.jar"
+                  ]
   :aot [fmtest.control-point]
   :repl-init fmtest.core)
